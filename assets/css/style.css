@@ -50,6 +50,7 @@ body {
 .primary-btn:hover {
   background: var(--light-clr);
   color: var(--accent-clr);
+  border: 2px solid var(--accent-clr);
 }
 
 .secondary-btn {
@@ -86,6 +87,12 @@ body {
   font-weight: 600 !important;
 }
 
+/* Hover effect for nav links */
+.nav-item-custom a:hover {
+  color: var(--dark-clr) !important;
+  text-decoration: underline;
+}
+
 .logo-custom {
   font-style: normal;
   font-weight: 600;
@@ -99,4 +106,35 @@ body {
 
 .logo-custom i {
   font-size: 1.5rem;
+}
+
+/* Hero section */
+.hero-banner {
+  margin-top: 5rem !important;
+}
+
+.hero-banner h1 {
+  font-size: 3rem;
+  font-family: var(--header-font-family);
+  line-height: 1.25;
+}
+
+.hero-banner .description {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.hero-banner .role {
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: "Inconsolata", monospace;
+  color: var(--accent-clr);
+}
+
+.hero-banner .cta-btns {
+  margin-top: 2.5rem;
+}
+
+.hero-banner .cta-btns .my-work {
+  margin-right: 2rem;
 }
