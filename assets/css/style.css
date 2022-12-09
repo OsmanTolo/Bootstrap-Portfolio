@@ -138,3 +138,55 @@ body {
 .hero-banner .cta-btns .my-work {
   margin-right: 2rem;
 }
+
+/* Project section */
+.project-section,
+.skills-section,
+.contact-section {
+  padding: 4rem 0;
+}
+
+.project-section h2,
+.skills-section h2,
+.contact-section h2 {
+  font-size: 2.5rem;
+  font-family: var(--header-font-family);
+  margin-bottom: 1rem;
+}
+
+.project-section {
+  background: var(--light-grey-clr);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scale transform hover effect on project cards*/
+.project-section .card:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  background: var(--accent-clr);
+  color: var(--light-clr);
+}
+
+/* Set border radius on images to match card */
+.project-section img {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.project-section .card .project-info {
+  padding: 0 1rem;
+}
+
+.project-section .card .project-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-section a {
+  margin-top: 2rem;
+}
