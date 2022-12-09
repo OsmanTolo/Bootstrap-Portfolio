@@ -1,3 +1,36 @@
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Lato:wght@400;700&display=swap");
+
+/* CSS variables to avoid DRY */
+:root {
+  --light-clr: #fff;
+  --grey-clr: #d4d4d4;
+  --light-grey-clr: #e3e3e7;
+  --dark-clr: #000026;
+  --accent-clr: #4830e6;
+
+  --greyscale-dark-clr: #4c4c65;
+  --greyscale-light-clr: #e2e3e7;
+
+  --header-font-family: "Inconsolata", monospace;
+  --para-font-family: "Lato", sans-serif;
+}
+
+/* Utility classes for common elements */
+body {
+  font-family: var(--para-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  background: var(--light-clr);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
 .logo-custom {
   font-style: normal;
   font-weight: 600;
