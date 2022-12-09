@@ -71,16 +71,19 @@ body {
 }
 
 /* Custom Navbar */
-/* .navbar-custom .container-fluid-custom {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: center !important;
-} */
+.navbar-custom {
+  margin: 0 auto !important;
+}
 
-#navbarNav {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+.mr-auto {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.nav-item-custom a {
+  color: var(--accent-clr) !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
 }
 
 .logo-custom {
