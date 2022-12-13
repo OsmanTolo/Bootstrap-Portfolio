@@ -200,6 +200,7 @@ body {
   justify-content: space-between;
 }
 
+/* TODO - Update to use bootstrap cards */
 .skills-section .card {
   display: flex;
   flex-direction: column;
@@ -213,4 +214,59 @@ body {
 .skills-section .card p {
   font-size: 14px;
   margin-top: 0.5rem;
+}
+
+/* Contact */
+.contact-section {
+  background: var(--light-grey-clr);
+  font-size: 1.25rem;
+}
+
+.contact .socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.contact .socials p {
+  margin-bottom: 1.75rem;
+}
+
+.contact .socials a {
+  text-decoration: none;
+}
+
+.contact .socials i {
+  margin-right: 1rem;
+  color: var(--greyscale-dark-clr);
+  font-size: 2rem;
+}
+
+.contact .socials span {
+  font-size: 1.25rem;
+  color: var(--accent-clr);
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid var(--accent-clr) !important;
+}
+.contact button {
+  margin-top: 2rem;
+  cursor: pointer;
+  min-width: 40%;
+}
+
+/* Footer */
+footer .container-custom {
+  font-family: var(--header-font-family);
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+footer .container-custom i {
+  margin-right: 1rem;
 }
