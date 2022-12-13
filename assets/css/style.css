@@ -106,7 +106,7 @@ body {
 
 /* Hero section */
 .hero-banner {
-  margin-top: 5rem !important;
+  margin-top: 3rem !important;
 }
 
 .hero-banner h1 {
@@ -137,10 +137,11 @@ body {
 
 /* Project section */
 /* TODO: use bootstrap cards */
+.hero-banner,
 .project-section,
 .skills-section,
 .contact-section {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 .project-section h2,
