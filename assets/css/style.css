@@ -187,3 +187,30 @@ body {
 .project-section a {
   margin-top: 2rem;
 }
+
+/* Skills Section */
+.skills-section {
+  background: var(--light-clr);
+}
+
+.skills-section .skills-icons {
+  font-size: 4rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-section .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: var(--accent-clr);
+  color: var(--light-clr);
+}
+
+.skills-section .card p {
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
